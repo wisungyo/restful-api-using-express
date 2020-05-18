@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const PORT = process.env.PORT || 4000;
 const app = express();
 require('dotenv/config');
 
@@ -29,4 +30,4 @@ mongoose.connect(
 );
 
 // listen
-app.listen(3000);
+app.listen(PORT, () => console.log(`App listening to port ${PORT}`));
