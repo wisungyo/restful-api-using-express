@@ -18,7 +18,7 @@ app.use("/api/users", usersRoute);
 
 // routes
 app.get("/", (req, res) => {
-    res.send("Hi, Wisnu here. <br /> Welcome to my public API.");
+    res.send("Hi, Wisnu's here. <br /> Welcome to my public API.");
 });
 
 // connect to mongodb
