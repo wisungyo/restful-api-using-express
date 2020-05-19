@@ -13,7 +13,7 @@ Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
 In this project directory, you can use these API:
 
-### GET `http://localhost:4000/`
+### GET `http://localhost:4000/`    
 
 This is the home page. Just warm you up on my app. Enjoy.
 
