@@ -26,7 +26,7 @@ mongoose.set("useUnifiedTopology", true); // don't know what it is. just add thi
 mongoose.connect(
     process.env.DB_CONNECTION, // this is dotenv. in order to hide my user&pass
     { useNewUrlParser: true },
-    () => console.log("Connected to database.") 
+    () => console.log("Connected to database!") 
 );
 
 // listen
