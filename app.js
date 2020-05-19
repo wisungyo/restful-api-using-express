@@ -13,8 +13,8 @@ const usersRoute = require("./routes/users");
 // middlewares
 app.use(cors());
 app.use(bodyParser.json());
-app.use("/posts", postsRoute);
-app.use("/users", usersRoute);
+app.use("/api/posts", postsRoute);
+app.use("/api/users", usersRoute);
 
 // routes
 app.get("/", (req, res) => {
