@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "12.16.3"
+script: 'true'
+deploy:
+  provider: heroku
+  api_key:
+    secure:
+  on:
+    tags: true
+    all_branches: true
