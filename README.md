@@ -17,23 +17,23 @@ In this project directory, you can use these API:
 
 This is the home page. Just warm you up on my app. Enjoy.
 
-### GET `http://localhost:4000/posts`
+### GET `http://localhost:4000/api/posts`
 
 This API gets all the data from the online database.
 
-### POST `http://localhost:4000/posts`
+### POST `http://localhost:4000/api/posts`
 
 This API post one data to the online database.
 
-### GET `http://localhost:4000/posts/:id`
+### GET `http://localhost:4000/api/posts/:id`
 
 This API gets specific data by providing the id.
 
-### DELETE `http://localhost:4000/posts/:id`
+### DELETE `http://localhost:4000/api/posts/:id`
 
 This API delete one data from the online database.
 
-### PATCH `http://localhost:4000/posts/:id`
+### PATCH `http://localhost:4000/api/posts/:id`
 
 This API update one data from the online database. In order to use this API, you must use both "title" and "description" at the same time. Also you must provide the id that shows which data you are going to update or edit.
 
