@@ -2,12 +2,10 @@ const express = require("express");
 const router = express.Router();
 const Post = require("../models/Post");
 
-localhost:4000/posts/asdkfjapeofijadkf
-
 // get all posts
 router.get("/", async (req, res) => {
     try{
-        const getAllPost = await Post.find(); // UNDIFINED
+        const getAllPost = await Post.find();
         res.json(getAllPost);
     } catch(err) {
         res.json({message: err});
