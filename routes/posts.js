@@ -12,7 +12,6 @@ router.get("/", async (req, res) => {
     }
 });
 
-
 // get specific post
 router.get("/:postId", async (req, res) => {
     try{
